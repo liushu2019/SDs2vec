@@ -1,0 +1,1 @@
+python src/main.py --input graph/${1}_sign_directed.edgelist --num-walks 20 --walk-length 80 --window-size 5 --dimensions 20 --until-layer 2 --workers 10 --scalefree --output ${1}_sign_directed_ebed1 --suffix ${1}_ebed --iter 40  --OPT3
